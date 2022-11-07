@@ -12,9 +12,9 @@ function init(){
       output.innerHTML = input;
  }
  
- //Configuring the button
- var button = document.getElementById('entrybutton');
- button.addEventListener('click', nameAlert); 
+  //Configuring the button
+  var button = document.getElementById('entrybutton');
+  button.addEventListener('click', nameAlert); 
 }
 window.addEventListener('load', init);
 
